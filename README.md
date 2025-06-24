@@ -28,5 +28,5 @@
 ```bash
 git clone https://github.com/Umarali-Cas/Fasko.git
 cd Fasko
-npm install
-npm run dev
+yarn
+yarn dev
