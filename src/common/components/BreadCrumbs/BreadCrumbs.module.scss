@@ -1,0 +1,35 @@
+.breadCrumbs{
+    display: flex;
+    align-items: center;
+    user-select: none;
+
+    &__item{
+        .separator{
+            margin: 0 13px;
+        }
+    }
+
+    &__current{
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: #909090;
+        text-wrap: nowrap;
+    }
+
+    .breadCrumbs__item{
+        text-wrap: nowrap;
+    }
+
+    .breadCrumbs__link{
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+        color: #000;
+        text-decoration: none;
+    }
+}

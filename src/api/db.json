@@ -1,0 +1,680 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHWtEkfj7X8_zKaZKBjOjx6U0Wc4IqAdkClw&s",
+      "tovarName": "Elegant Evening Gown",
+      "reviews": "2.3k",
+      "sold": "Limited Stock",
+      "price": "$89.99",
+      "category": 2
+    },
+    {
+      "id": "2",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb5bUjAgfMWjauCO6QGG-o0VOGeKmXOgSfVg&s",
+      "tovarName": "Velvet Chic Dress",
+      "reviews": "3.1k",
+      "sold": "Best Seller",
+      "price": "$102.40",
+      "category": 2
+    },
+    {
+      "id": "3",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKpq50OdKB71TVBJb9G19istEc9zmXaU-ryQ&s",
+      "tovarName": "Rose Gold Flair",
+      "reviews": "1.7k",
+      "sold": "Low in Stock",
+      "price": "$76.30",
+      "category": 2
+    },
+    {
+      "id": "4",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDtb9dqI3q1V9iLbhMfa0OOsCTQly5YveBNw&s",
+      "tovarName": "Midnight Sparkle",
+      "reviews": "4.6k",
+      "sold": "Top Rated",
+      "price": "$110.00",
+      "category": 2
+    },
+    {
+      "id": "5",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFxxisEokzyhmueNmE9GZ3AqjtoyQuO_nNkA&s",
+      "tovarName": "Classic Noir Dress",
+      "reviews": "980",
+      "sold": "Trending",
+      "price": "$85.20",
+      "category": 2
+    },
+    {
+      "id": "6",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEDGh-F3p3yq6cFUlC5wGtwC2874mkxMsM3Q&s",
+      "tovarName": "Sunset Silk Wrap",
+      "reviews": "1.2k",
+      "sold": "Few Left",
+      "price": "$91.75",
+      "category": 1
+    },
+    {
+      "id": "7",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWVRdiwxKIhB5jga-bHnb77EiQz-zXELyu2w&s",
+      "tovarName": "Crimson Flame Dress",
+      "reviews": "2.9k",
+      "sold": "Editor’s Pick",
+      "price": "$99.00",
+      "category": 2
+    },
+    {
+      "id": "8",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDO8dGn2OZnwSm3Lyixc24hZgh4Ab7mwxs6A&s",
+      "tovarName": "Amber Light Dress",
+      "reviews": "1.5k",
+      "sold": "Hot Item",
+      "price": "$88.20",
+      "category": 1
+    },
+    {
+      "id": "9",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEdNAjkWYAuuJmDWMARvLvqjEKPZqwtKa9xQ&s",
+      "tovarName": "Ocean Breeze Dress",
+      "reviews": "3.4k",
+      "sold": "Almost Gone",
+      "price": "$107.90",
+      "category": 1
+    },
+    {
+      "id": "10",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRiPyu_iaf3RCvZLZsm5YC3Y-b-lksjUHbZA&s",
+      "tovarName": "Golden Hour Gown",
+      "reviews": "1.1k",
+      "sold": "Back in Stock",
+      "price": "$95.00",
+      "category": 1
+    },
+    {
+      "id": "11",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLpLdzaUNDrH7ubaqgGuLy6w1oxrP3z_RNeQ&s",
+      "tovarName": "Twilight Dream Dress",
+      "reviews": "2.8k",
+      "sold": "Customer Favorite",
+      "price": "$103.80",
+      "category": 1
+    },
+    {
+      "id": "12",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfPVfNuN8MDCsW0vGLbpr7QQaaK323atgGTA&s",
+      "tovarName": "Cappuccino Flare",
+      "reviews": "1.9k",
+      "sold": "Few Left",
+      "price": "$89.60",
+      "category": 1
+    },
+    {
+      "id": "13",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROGy8p3ETvpZrhuyuuEgHTAAZPWyAlp97Ggg&s",
+      "tovarName": "Winter Frost Gown",
+      "reviews": "3.7k",
+      "sold": "Fast Shipping",
+      "price": "$98.50",
+      "category": 3
+    },
+    {
+      "id": "14",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFB83efSWl_nVbT8c57W2DDN60_myN_hatxg&s",
+      "tovarName": "Moonlight Satin",
+      "reviews": "2.2k",
+      "sold": "Low Inventory",
+      "price": "$112.00",
+      "category": 3
+    },
+    {
+      "id": "15",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwHwkOrdIvXfLVCeNG_KmSt1TOhHrXPKLD6g&s",
+      "tovarName": "Forest Whisper Dress",
+      "reviews": "860",
+      "sold": "Limited Run",
+      "price": "$91.99",
+      "category": 3
+    },
+    {
+      "id": "16",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtHXG1PCd9-Ca5sMOIeMjzl6EdwzunhGrhCA&s",
+      "tovarName": "Lavender Lace Dress",
+      "reviews": "1.6k",
+      "sold": "High Demand",
+      "price": "$105.40",
+      "category": 3
+    },
+    {
+      "id": "17",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMj6KYQU-tI-KeRGGJBkl3t1_TCSzduivTzA&s",
+      "tovarName": "Blush Charm Dress",
+      "reviews": "3.0k",
+      "sold": "Only a Few Left",
+      "price": "$87.25",
+      "category": 3
+    },
+    {
+      "id": "18",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv-9a66P4_cx_XX0WViVcQF1IS2tx1r5pNSg&s",
+      "tovarName": "Snow Petal Dress",
+      "reviews": "1.3k",
+      "sold": "Rising Star",
+      "price": "$93.60",
+      "category": 3
+    },
+    {
+      "id": "19",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIZU48F4uSvCZn2zXyjgfEDJLhi8_8a6J08g&s",
+      "tovarName": "Autumn Glimmer Gown",
+      "reviews": "1.0k",
+      "sold": "Almost Gone",
+      "price": "$99.90",
+      "category": 4
+    },
+    {
+      "id": "20",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSinONPG7ZIf53pd_tw8Vl9SKvfZH9MgyepAA&s",
+      "tovarName": "Ruby Spark Dress",
+      "reviews": "2.1k",
+      "sold": "Best Pick",
+      "price": "$96.00",
+      "category": 4
+    },
+    {
+      "id": "21",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtox1GCfc5kIpbfbvW3iauLlTZs87De53ViQ&s",
+      "tovarName": "Pearl Luxe Gown",
+      "reviews": "4.2k",
+      "sold": "Almost Sold Out",
+      "price": "$108.30",
+      "category": 4
+    },
+    {
+      "id": "22",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDiWZoDm32CXHYxqWgoWYmddiaNUPwrBVsLQ&s",
+      "tovarName": "Mystic Night Dress",
+      "reviews": "2.6k",
+      "sold": "Top Seller",
+      "price": "$92.40",
+      "category": 4
+    },
+    {
+      "id": "23",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5YRk_zpMgU8Mbi7n3B47kwrVEaUWkdjBahg&s",
+      "tovarName": "Ivory Glow Dress",
+      "reviews": "1.4k",
+      "sold": "Trending Now",
+      "price": "$101.90",
+      "category": 4
+    },
+    {
+      "id": "24",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhSzG_V_4h7wmJ5PtXuQts9r5WoyX4NgJzUA&s",
+      "tovarName": "Cherry Bloom Dress",
+      "reviews": "3.3k",
+      "sold": "Editor’s Pick",
+      "price": "$86.70",
+      "category": 4
+    },
+    {
+      "id": "25",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO6ws25QP1OGuF4IIBGgoW1kFp11OYsW2OEg&s",
+      "tovarName": "Sapphire Storm Gown",
+      "reviews": "1.8k",
+      "sold": "Flash Deal",
+      "price": "$94.99",
+      "category": 5
+    },
+    {
+      "id": "26",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW3M4tatPYWwQNiOYXWK1BHLkpxcJ_7K5gIg&s",
+      "tovarName": "Orchid Silk Dress",
+      "reviews": "2.0k",
+      "sold": "Just Added",
+      "price": "$90.60",
+      "category": 5
+    },
+    {
+      "id": "27",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7p3K5hZvnbJbSBIxTTDR1EHquSW8I2C_bUg&s",
+      "tovarName": "Opal Shine Dress",
+      "reviews": "950",
+      "sold": "Rare Find",
+      "price": "$97.70",
+      "category": 5
+    },
+    {
+      "id": "28",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAlpb8KQnnsTUUCyCy_edeLx9YlZ62xxbrug&s",
+      "tovarName": "Skyline Elegance",
+      "reviews": "2.4k",
+      "sold": "Customer Choice",
+      "price": "$86.45",
+      "category": 5
+    },
+    {
+      "id": "29",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAWS5_Knagg6BytP28_m-jgjL_pWoUN7KjXw&s",
+      "tovarName": "Coral Reef Gown",
+      "reviews": "1.6k",
+      "sold": "Fan Favorite",
+      "price": "$100.00",
+      "category": 5
+    },
+    {
+      "id": "30",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbJs8sYcMMOBIpsK9Ww7XQGxq1H3I_q4MOxw&s",
+      "tovarName": "Dusk Whisper Dress",
+      "reviews": "3.9k",
+      "sold": "Only a Few Left",
+      "price": "$92.80",
+      "category": 5
+    }
+  ],
+  "users": [
+    {
+      "id": "816d",
+      "firstName": "umarali",
+      "lastName": "omorov",
+      "email": "umaraliomorov13@gmail.com",
+      "phone": "996708161222",
+      "password": "13072007"
+    }
+  ],
+  "products_shop": [
+    {
+      "id": "1",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKpq50OdKB71TVBJb9G19istEc9zmXaU-ryQ&s",
+      "name": "Gray Hoodie",
+      "price": "$150.00",
+      "colors": [
+        14,
+        7
+      ],
+      "size": [
+        3,
+        2,
+        4
+      ],
+      "brand": "Minimog",
+      "tags": [
+        "Fashion",
+        "Hats"
+      ]
+    },
+    {
+      "id": "2",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ9PhSPZ1Rniq4JGvwOZZeMGHhdCX9nhW-EA&s",
+      "name": "Black Sneakers",
+      "price": "$50.00",
+      "colors": [
+        4,
+        12
+      ],
+      "size": [
+        2,
+        3
+      ],
+      "brand": "Retrolie",
+      "tags": [
+        "Footwear",
+        "Minimog"
+      ]
+    },
+    {
+      "id": "3",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTswpPiQQ6a7F-bTnMfQUcAJbVLpAipuXId4w&s",
+      "name": "Basic White T-Shirt",
+      "price": "$45.00",
+      "colors": [
+        5,
+        4,
+        14,
+        10
+      ],
+      "size": [
+        2,
+        4,
+        1
+      ],
+      "brand": "Brook",
+      "tags": [
+        "Fashion",
+        "Denim"
+      ]
+    },
+    {
+      "id": "4",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCFZJqrbhXEiDgKPXsGRqCtXNZADxVMkSQ4A&s",
+      "name": "Brown Cardigan",
+      "price": "$17.00",
+      "colors": [
+        5,
+        7
+      ],
+      "size": [
+        4,
+        3
+      ],
+      "brand": "Vagabond",
+      "tags": [
+        "Winter",
+        "Belt"
+      ]
+    },
+    {
+      "id": "5",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0wu1xBG3EsFvNJEVnKsRtc2h7QMy0t8HXlA&s",
+      "name": "Winter Coat",
+      "price": "$20.00",
+      "colors": [
+        3,
+        11
+      ],
+      "size": [
+        3,
+        4,
+        1
+      ],
+      "brand": "Abby",
+      "tags": [
+        "Winter",
+        "Minimog"
+      ]
+    },
+    {
+      "id": "6",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQneU34x5Nd1SLFd0dXeP8qKRYCONeNQqPecQ&s",
+      "name": "Summer Yellow Dress",
+      "price": "$18.00",
+      "colors": [
+        8,
+        9
+      ],
+      "size": [
+        3,
+        2,
+        4
+      ],
+      "brand": "Minimog",
+      "tags": [
+        "Fashion",
+        "Beachwear"
+      ]
+    },
+    {
+      "id": "7",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7p3K5hZvnbJbSBIxTTDR1EHquSW8I2C_bUg&s",
+      "name": "Boxy Denim Hat",
+      "price": "$120.00",
+      "colors": [
+        4,
+        5,
+        1
+      ],
+      "size": [
+        4,
+        2,
+        1,
+        3
+      ],
+      "brand": "Learts",
+      "tags": [
+        "Hats",
+        "Denim"
+      ]
+    },
+    {
+      "id": "8",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK3mPlvBgbU8qyKKlTHcUyNrhj2hFnH8srqQ&s",
+      "name": "Beige Trousers",
+      "price": "$35.00",
+      "colors": [
+        6,
+        1
+      ],
+      "size": [
+        2,
+        4
+      ],
+      "brand": "Brook",
+      "tags": [
+        "Fashion",
+        "Sunglasses"
+      ]
+    },
+    {
+      "id": "9",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3iiJWsFacIWIFnT9XcmSqXWBUMGvLhaoahA&s",
+      "name": "Blue Cap",
+      "price": "$70.00",
+      "colors": [
+        11,
+        2
+      ],
+      "size": [
+        4,
+        1
+      ],
+      "brand": "Retrolie",
+      "tags": [
+        "Accessories",
+        "Hats"
+      ]
+    },
+    {
+      "id": "10",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWc8RBJRJ0rQtc0mGbw-1WxH9LXdyQzO2wmQ&s",
+      "name": "Linen Plain Top",
+      "price": "$55.00",
+      "colors": [
+        1
+      ],
+      "size": [
+        1,
+        3,
+        4
+      ],
+      "brand": "Abby",
+      "tags": [
+        "Shirt",
+        "Belt"
+      ]
+    },
+    {
+      "id": "11",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLpLdzaUNDrH7ubaqgGuLy6w1oxrP3z_RNeQ&s",
+      "name": "Long-sleeve Coat",
+      "price": "$50.00",
+      "colors": [
+        4
+      ],
+      "size": [
+        2,
+        3
+      ],
+      "brand": "Minimog",
+      "tags": [
+        "Winter",
+        "Minimog"
+      ]
+    },
+    {
+      "id": "12",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3l2r3klHIj0KwwGgur4elj6WyEWbMA43FeA&s",
+      "name": "Red Sweater",
+      "price": "$35.00",
+      "colors": [
+        1,
+        3
+      ],
+      "size": [
+        2,
+        3,
+        4
+      ],
+      "brand": "Vagabond",
+      "tags": [
+        "Sweater",
+        "Winter"
+      ]
+    },
+    {
+      "id": "13",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDQhcwd2G__WD1qKREg4uFFzgMAiWRCkMS5Q&s",
+      "name": "Denim Jeans",
+      "price": "$40.00",
+      "colors": [
+        2,
+        12
+      ],
+      "size": [
+        4,
+        3
+      ],
+      "brand": "Learts",
+      "tags": [
+        "Denim",
+        "Casual"
+      ]
+    },
+    {
+      "id": "14",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-VC_pEEB9tcFrF6Z4qCEtaaOYgUHrkvyTdQ&s",
+      "name": "Brushed Red Hat",
+      "price": "$35.00",
+      "colors": [
+        1,
+        5,
+        2
+      ],
+      "size": [
+        1,
+        2,
+        3
+      ],
+      "brand": "Retrolie",
+      "tags": [
+        "Hats",
+        "Accessories"
+      ]
+    },
+    {
+      "id": "15",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6oBaW_Jhh1UpEgU5vMvPQkKPrMTbU06czxg&s",
+      "name": "Linen-blend Shirt",
+      "price": "$15.00",
+      "colors": [
+        7,
+        5,
+        9
+      ],
+      "size": [
+        4,
+        1,
+        2
+      ],
+      "brand": "Brook",
+      "tags": [
+        "Shirt",
+        "Sandal"
+      ]
+    },
+    {
+      "id": "16",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm8LJYnKVvExLGIXGP1xpy3GpTzqJ1ZaYjng&s",
+      "name": "Puffer Jacket",
+      "price": "$200.00",
+      "colors": [
+        3,
+        5
+      ],
+      "size": [
+        2,
+        3,
+        4
+      ],
+      "brand": "Vagabond",
+      "tags": [
+        "Jacket",
+        "Winter"
+      ]
+    },
+    {
+      "id": "17",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb2r-dpKKxCyOm64Fs079w3CnpgEqc9qqgNQ&s",
+      "name": "Casual Blazer",
+      "price": "$120.00",
+      "colors": [
+        1,
+        8
+      ],
+      "size": [
+        1,
+        3,
+        4
+      ],
+      "brand": "Learts",
+      "tags": [
+        "Blazer",
+        "Casual"
+      ]
+    },
+    {
+      "id": "18",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWGfwsRWe2laYrFVK8p2pNV-SnesNI6JQsEg&s",
+      "name": "Plaid Skirt",
+      "price": "$40.00",
+      "colors": [
+        4,
+        9
+      ],
+      "size": [
+        1,
+        2,
+        3
+      ],
+      "brand": "Minimog",
+      "tags": [
+        "Skirt",
+        "Fashion"
+      ]
+    },
+    {
+      "id": "19",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_3vLbs81tos81Ft6wSOZLf8s6txrsZXCSyA&s",
+      "name": "Silver Necklace",
+      "price": "$65.00",
+      "colors": [
+        7
+      ],
+      "size": [
+        4
+      ],
+      "brand": "Retrolie",
+      "tags": [
+        "Jewelry",
+        "Accessories"
+      ]
+    },
+    {
+      "id": "20",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtd4wTwylUwTQ_1a-H4SnuP_KMpnHCHQBExg&s",
+      "name": "Black Flip Flops",
+      "price": "$19.00",
+      "colors": [
+        6,
+        12
+      ],
+      "size": [
+        4,
+        1
+      ],
+      "brand": "Abby",
+      "tags": [
+        "Sandal",
+        "Beachwear"
+      ]
+    }
+  ]
+}

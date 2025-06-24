@@ -1,0 +1,85 @@
+.sliderContainer {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+    overflow-x: hidden;
+  }
+  
+  .swiper {
+    // overflow: visible !important;
+    margin: 0 auto;
+  }
+  
+  .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imageContainer {
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .swiper-slide-active .imageContainer {
+    transform: scale(2);
+  }
+  
+  .image {
+    width: 372px;
+    height: 486px;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .buttons{
+    display: flex;
+    position: absolute;
+    left: -300px;
+    bottom: 40px;
+  }
+  
+  .customButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 100%;
+    fill: #fff;
+    box-shadow: 0 4px 14px 1px rgba(0, 0, 0, 0.16);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .customButton:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  .customButton:first-of-type {
+    left: -50px;
+  }
+  
+//   .customButton:last-of-type {
+//     right: -40px;
+//   }
+  
+  .swiper-pagination {
+    bottom: 10px !important;
+  }
+  
+  .swiper-pagination-bullet {
+    background: white !important;
+    opacity: 0.5 !important;
+  }
+  
+  .swiper-pagination-bullet-active {
+    opacity: 1 !important;
+  }

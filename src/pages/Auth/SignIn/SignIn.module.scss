@@ -1,0 +1,192 @@
+.signIn{
+    height: 100vh;
+    max-width: 1280px;
+    width: 100%;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 80px;
+
+    // *{
+    //     border: 1px solid gray;
+    // }
+
+    img{
+        max-width: 50%;
+        max-height: 80%;
+        border-radius: 8px;
+    }
+
+    
+    
+    .SignInForm{
+        max-width: 45%;
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0 50px;
+
+        img{
+            max-width: 130px;
+            margin-bottom: 50px;
+        }
+
+        .fasko{
+            font-family: var(--second-family);
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 133%;
+            color: #000;
+        }
+
+        .google_mail{
+            max-width: 100%;
+            display: flex;
+            column-gap: 45px;
+            margin: 20px auto 20px;
+            button{
+                border: 1px solid #5b86e5;
+                border-radius: 8px;
+                max-width:45.5%;
+                max-height: 70%;
+                display: flex;
+                background: none;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                column-gap: 13px;
+                position: relative;
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 250%;
+                letter-spacing: 0.08em;
+                color: #000;
+                padding: 8px 10px 8px 55px;
+                text-wrap: nowrap;
+
+                &:hover{
+                    background: #7fa1ec;
+                    color: #fff;
+                }
+                
+                img{
+                    position: absolute;
+                    left: 20px;
+                    bottom: -45px;
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+
+    .or{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 13px;
+
+        h1{
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 133%;
+            letter-spacing: 0.08em;
+            color: #838383;
+        }
+
+        hr{
+            height: 4px;
+            width: 25px;
+            background: #838383;
+        }
+    }
+
+    form{
+        .conditions{
+            position: absolute;
+            right: 100px;
+            bottom: 30px;
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 250%;
+            color: #838383;
+        }
+        input{
+            max-width: 628px;
+            width: 100%;
+            max-height: 47px;
+            height: 100%;
+            border: none;
+            border-bottom: 1px solid #9d9d9d;
+            background: none;
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 250%;
+            letter-spacing: 0.08em;
+            color: #9d9d9d;
+            padding: 0 3px;
+
+        }
+        .email{
+            margin-bottom: 15px;
+        }
+        .buttons{
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+
+            button{
+                max-width: 90%;
+                width: 90%;
+                max-height: 47px;
+                height: 100%;
+                align-self: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .registerBtn{
+                border: 1px solid #5b86e5;
+                border-radius: 8px;
+                background: none;
+                font-family: var(--font-family);
+                font-weight: 600;
+                font-size: 16px;
+                color: #5b86e5;
+                text-align: center;
+                margin: 20px 0 0 0;
+
+                &:hover{
+                    background: #5b86e5;
+                    color: #fff;
+                }
+            }
+
+            a{
+                font-family: var(--font-family);
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 250%;
+                letter-spacing: 0.08em;
+                color: #5b86e5;
+                text-decoration: none;
+                align-self: flex-end;
+                padding-right: 5%;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

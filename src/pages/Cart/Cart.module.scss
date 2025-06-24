@@ -1,0 +1,189 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .pageName{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 76%;
+        text-transform: capitalize;
+        text-align: center;
+        color: #000;
+        margin-bottom: 20px;
+    }
+
+    .breadcrumbs{
+        margin-bottom: 50px;
+    }
+
+
+    .tovar_container{
+        max-width: 1280px;
+        width: 100%;
+        padding: 50px 0 100px;
+        .titles{
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+
+            h3{
+                font-family: var(--second-family);
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 145%;
+                text-transform: capitalize;
+                text-align: center;
+                color: #000;
+            }
+        }
+
+        hr{
+            border: 1px solid rgba(0, 0, 0, 0.39);
+            width: 1280px;
+            height: 0px;
+            margin: 45px 0;
+        }
+
+        .item{
+            display: flex;
+        }
+
+        .product{
+            img{
+                margin-right: 20px;
+                width: 168px;
+                height: 225px;
+                object-fit: cover;
+            }
+        }
+
+            .product_content{
+                padding: 10px 0;
+
+                
+                h3{
+                font-family: var(--second-family);
+                font-weight: 400;
+                font-size: 22px;
+                text-transform: capitalize;
+                color: #000;
+            }
+
+            .color{
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 191%;
+                text-transform: capitalize;
+                text-align: left;
+                color: #8a8a8a;
+                margin: 15px 0;
+            }
+
+        }
+        .remove{
+            margin-top: 20px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            border: 1px solid gray;
+            border-radius: 8px;
+            padding: 5px 10px;
+
+            &:hover{
+                transition: all 0.02s ease-in-out;
+                color: red;
+                transform: scale(1.08);
+                border: 1px solid red;
+            }
+        }
+        
+    }
+    .currentPrice{
+        position: absolute;
+        left: 83%;
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 145%;
+        text-transform: capitalize;
+        text-align: center;
+        color: #000;
+    }
+
+    .complate{
+        justify-self: end;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 600px;
+        width: 100%;
+
+        .hr{
+            width: 100%;
+        }
+
+        .final{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 20px;
+
+            p{
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 191%;
+                text-transform: capitalize;
+                text-align: center;
+                color: #8a8a8a;
+            }
+
+
+            input{
+                width: 28px;
+                height: 28px;
+            }
+        }
+
+
+        .subtotals{
+            display: flex;
+            column-gap: 10px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.quantity{
+    position: absolute;
+    left: 58%;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #8a8a8a;
+    align-items: center;
+    border-radius: 3px;
+    width: 119px;
+    height: 41px;
+
+
+    button{
+        border: none;
+        font-size: 16px;
+        background: none;
+        cursor: pointer;
+    }
+}
+
+.price{
+    position: absolute;
+    left: 36.6%;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 145%;
+    text-transform: capitalize;
+    text-align: center;
+    color: #000;
+}

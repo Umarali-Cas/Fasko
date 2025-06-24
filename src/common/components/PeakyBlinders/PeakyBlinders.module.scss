@@ -1,0 +1,122 @@
+.section_container{
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+
+    .features{
+        margin: 0 auto;
+        padding: 72px 0;
+    }
+}
+
+.container{
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    
+    .left_side{
+        width: 65%;
+        height: 570px;
+        position: relative;
+
+        img{
+            position: absolute;
+            z-index: -1;
+            left: -150px;
+        }
+    }
+    .right_side{
+        height: 570px;
+        width: 45%;
+        background: #DADADA;
+        position: relative;
+        padding: 60px 0;
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+        align-items: left;
+        justify-content: center;
+
+        &::before{
+            content: "";
+            position: absolute;
+            background: #DADADA;
+            top: 0;
+            width: 45%;
+            left: -100px;
+            height: 100%;
+            z-index: -1;
+            transform: skewX(-18deg);
+            border-left: 2px solid black;
+        }
+
+        p{
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 16px;
+            color: #767676;
+        }
+
+        h1{
+            font-family: var(--second-family);
+            font-weight: 400;
+            font-size: 46px;
+            color: #484848;
+        }
+
+        .txt{
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 16px;
+            color: #767676;
+            max-width: 515px;
+        }
+
+        a{
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 16px;
+            text-decoration: underline;
+            text-decoration-skip-ink: none;
+            color: #000;
+        }
+
+        .size_container{
+            display: flex;
+            column-gap: 15px;
+            align-items: center;
+
+            .size_text{
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 16px;
+                color: #767676;
+            }
+
+            .size_content{
+                border-radius: 10px;
+                width: 53px;
+                height: 28px;
+                background: #000;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        h3{
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 28px;
+            color: #000;
+        }
+
+        .btn{
+            max-width: 207px;
+        }
+    }
+}

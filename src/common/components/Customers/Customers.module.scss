@@ -1,0 +1,129 @@
+.sliderContainer {
+  width: 1920px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem 0;
+  position: relative;
+}
+
+.say{
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 46px;
+  text-align: center;
+  color: #484848;
+  text-align: center;
+}
+
+.title{
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  text-align: center;
+  color: #8a8a8a;
+}
+
+.swiper {
+  width: 80%;
+  max-width: 1280px;
+  display: flex;
+  column-gap: 20px;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.right_side{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+  max-width: 1280px;
+  padding-left: 83px;
+
+  hr{
+    width: 50%;
+  }
+}
+
+.testimonialCard {
+  background: white;
+  padding: 69px 50px;
+  box-shadow: 0 20px 60px 0 rgba(46, 33, 61, 0.08);
+  background: #fff;
+  border-radius: 0.75rem;
+  max-width: 320px;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 864px;
+  max-height: 400px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.image {
+  width: 242px;
+  height: 242px;
+}
+
+.review {
+  color: #4a4a4a;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: #484848;
+  max-width: 419px;
+  text-align: left;
+}
+
+.rating{
+  margin: 26px 0 30px;
+}
+
+.name {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 32px;
+  color: #484848;
+  margin: 15px 0;
+}
+
+.role {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: #484848;
+}
+
+.buttons{
+  display: flex;
+  column-gap: 16px;
+  position: absolute;
+  z-index: 1;
+  bottom: -50px;
+}
+
+
+.customButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  fill: #fff;
+  box-shadow: 0 4px 14px 1px rgba(0, 0, 0, 0.16);
+  width: 48px;
+  height: 48px;
+  border: none;
+  cursor: pointer;
+
+  &:hover{
+    background: #f7f7f7;
+  }
+}

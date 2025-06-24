@@ -1,0 +1,58 @@
+header{
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 50px 0;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        width: 100%;
+
+        .sign_in{
+            text-decoration: none;
+            color: var(--black);
+        }
+    
+        .navbar{
+            margin: 0 auto;
+        }  
+
+        .navbarMain{
+            margin-right: 58px;
+        }
+
+        .buttons{
+            display: flex;
+            align-items: center;
+            column-gap: 58px;
+
+            .user_container{
+                display: flex;
+                align-items: center;
+                column-gap: 25px;
+                cursor: pointer;
+                padding: 0 10px 0 50px;
+                
+                img{
+                    &:hover{
+                        transform: scale(1.1);
+                        transition: all 0.1s ease-in-out;
+                    }
+
+                }
+            }
+
+            .header_btn{
+                border: 1px solid #fff;
+
+                &:hover{
+                    border: 1px solid #000;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,105 @@
+.card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 0 5px 10px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid white;
+
+    &:hover{
+      filter: opacity(0.9);
+      border: 1px solid gray;
+      border-radius: 4px;
+      transform: scale(1.05);
+      transition: all 0.2s ease-in-out;
+    }
+
+    img {
+      width: 100%;
+      height: 380px;
+      object-fit: cover;
+    }
+    h3 {
+      font-family: var(--second-family);
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #000;
+      margin: 10px 0 5px;
+      align-self: flex-start;
+    }
+
+    p{
+      align-self: flex-start;
+      font-family: var(--third-family);
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #000;
+    }
+  }
+  
+  .information{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    position: relative;
+
+    .sizes{
+      display: flex;
+      column-gap: 10px;
+
+      .sizeContainer{  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        margin-top: 12px;
+        align-self: flex-start;
+
+        span{
+          border: 1px solid gray;
+          width: 30px;
+          height: 30px;
+          border-radius: 8px;
+          padding: 5px 2px 2px 2px;
+        }
+      }
+    }
+
+    .colors {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      margin-top: 15px;
+      align-self: flex-start;
+      position: relative;
+    
+      .colorContainer {
+        border-radius: 50%;
+        width: 22px;
+        height: 22px;
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+        background: none;
+        border: 1px solid black;
+        padding: 2px;
+        position: relative;
+        border: 1px solid #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        div{
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+        }
+
+      }
+    }
+  }
+  
