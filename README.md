@@ -1,12 +1,30 @@
-# React + Vite
+# Fasko
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Это - проект интернет магазина созданный для моей экзаменационной работы в MetaLabs!
+проект представляет собой многостроничный интернет магазин с возможностью добавления товара в корзину,удаления, фильтрации по категориям,цветам,размерам,брендам,производителям
 
-Currently, two official plugins are available:
+![Status](https://img.shields.io/badge/status-wip-yellow)  <!-- WIP — work in progress -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Демонстрация
 
-## Expanding the ESLint configuration
+![Скриншот](./path/to/screenshot.png)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[Посмотреть онлайн](https://ссылка-на-деплой)
+
+## Технологии
+
+- React
+- JavaScript
+- Redux
+- SCSS
+- Swiper
+- Axios
+- Yarn
+
+## Установка
+
+```bash
+git clone https://github.com/Umarali-Cas/Fasko.git
+cd Fasko
+npm install
+npm run dev
