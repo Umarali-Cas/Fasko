@@ -3,8 +3,8 @@
 import { useEffect, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 
-import logo from '../../../assets/icons/Logo.svg'
 import favoriteIcon from '../../../assets/icons/favoriteIcon.svg'
+import logo from '../../../assets/icons/logo.svg'
 import profileIcon from '../../../assets/icons/profileIcon.svg'
 import shopIcon from '../../../assets/icons/shopIcon.svg'
 import { ROUTER_PATHS } from '../../../routes/routePaths'
