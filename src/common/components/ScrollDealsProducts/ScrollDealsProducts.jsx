@@ -2,7 +2,7 @@ import img1 from '../../../assets/images/scroll-image-one.png'
 import img3 from '../../../assets/images/scroll-image-three.png'
 import img2 from '../../../assets/images/scroll-image-two.png'
 import { Button } from '../../ui/Button/Button'
-import { CountdownTimer } from '../../ui/CountDownTimer/CountDownTimer'
+import { CountdownTimer } from '../../ui/CountdownTimer/CountdownTimer'
 import { CoverflowSlider } from '../../ui/CoverflowSlider'
 
 import styles from './ScrollDealsProducts.module.scss'
