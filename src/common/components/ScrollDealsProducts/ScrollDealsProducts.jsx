@@ -2,15 +2,15 @@ import img1 from '../../../assets/images/scroll-image-one.png'
 import img3 from '../../../assets/images/scroll-image-three.png'
 import img2 from '../../../assets/images/scroll-image-two.png'
 import { Button } from '../../ui/Button/Button'
-import { CountdownTimer } from '../../ui/CountdownTimer/CountdownTimer'
+// import { CountdownTimer } from '../../ui/CountdownTimer/CountdownTimer'
 import { CoverflowSlider } from '../../ui/CoverflowSlider'
 
 import styles from './ScrollDealsProducts.module.scss'
 
 const images = [img2, img1, img3]
 
-const days = ['02', '06', '05', '30']
-const times = ['Days', 'Hr', 'Mins', 'Sec']
+// const days = ['02', '06', '05', '30']
+// const times = ['Days', 'Hr', 'Mins', 'Sec']
 
 export const ScrollDealsProducts = () => {
   return (
@@ -25,9 +25,7 @@ export const ScrollDealsProducts = () => {
         <Button className={styles.btn}>Buy Now</Button>
         <div className={styles.timer_container}>
           <h3>Hurry, Before It’s Too Late!</h3>
-          <div className={styles.timers}>
-            <CountdownTimer />
-          </div>
+          <div className={styles.timers}>{/* <CountdownTimer /> */}</div>
         </div>
       </div>
       <div className={styles.right_side}>
